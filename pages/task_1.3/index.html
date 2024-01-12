@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика_1.3</title>
+</head>
+<body>
+    <h1> Форма заявки на работу в зоопарке </h1>
+    <p><i>Пожалуйста, заполните форму. Поля обязательные для заполнения </i><span style="color:red;">*</span></p>
+    
+    <!-- Начало формы -->
+    <form action="#">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <br>
+            <label for="nameUserForm">Имя <span style="color:red;">*</span></label>
+            <input type="text" name="nameUser" id="nameUserForm" required>
+            <br><br>
+
+            <label for="telUserForm">Телефон</label>
+            <input type="tel" name="telUser" id="telUserForm" placeholder="+7-***-***-**-**">
+            <br><br>
+
+            <label for="emailUserForm">E-mail <span style="color: red;">*</span></label>
+            <input type="email" name="emailUser" id="emailUserForm" required>                         
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>  
+            <legend>Персональная информация</legend>
+
+            <div>
+                <label for="ageUserForm">Возраст <span style="color: red">*</span></label>
+                <input type="number" name="egeUse" id="ageUserForm" required min="14">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="genderUseForm">Пол</label>
+                <select name="genderUse" id="genderUseForm">
+                    <option value="man">Мужской</option>
+                    <option value="womem">Женский</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <lebel for="characterUseForm">Перечислите личные качества</lebel>
+                <br>               
+                <textarea name="characterUse" id="characterUseForm" cols="30" rows="10"></textarea>
+            </div> 
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Выберите ваших любимых животный</legend>
+
+            <div>
+                <input type="checkbox" name="animals" id="animalsZebraForm" value="zebra">
+                <label for="animalsZebraForm">Зебра</label>
+
+                <input type="checkbox" name="animals" id="animalsCatForm" value="cat">
+                <label for="animalsCatForm">Кошка</label>
+
+                <input type="checkbox" name="animals" id="animalsAnacondaForm" value="anaconda">
+                <label for="animalsAnacondaForm">Анаконда</label>
+
+                <input type="checkbox" name="animals" id="animalsPeopleForm" value="people">
+                <label for="animalsPeopleForm">Человек</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="animals" id="anacondaElephantForm" value="elephant">
+                <label for="anacondaElephantForm">Слон</label>
+
+                <input type="checkbox" name="animals" id="animalsAntilopaForm" value="antilopa">
+                <label for="animalsAntilopaForm">Антилопа</label>
+
+                <input type="checkbox" name="animals" id="animalsPigeonForm" value="pigeon">
+                <label for="animalsPigeonForm">Голубь</label>
+
+                <input type="checkbox" name="animals" id="animalsCrabForm" value="Crab">
+                <label for="animalsCrabForm">Краб</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Отправить информацию">     
+
+    </form>
+</body>
+</html>

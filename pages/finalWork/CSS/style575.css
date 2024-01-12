@@ -1,0 +1,143 @@
+@media (max-width:576px){
+    
+    /* Общие классы */
+
+    .wrapper{
+        width: 90.61%;
+    }
+
+    .universal-h2{
+        text-align: center;
+        font-size: var(--font-size-h3);
+    }
+
+
+    /* Секция heading*/
+
+    .info__heading{
+        display: none;
+    }
+
+    .heading{
+        padding-top: 35px;
+        padding-bottom: 35px;
+        position: sticky;
+        top: 0;      
+    }
+
+    .logo__heading img{
+        width: 250px;
+        height: 60px;
+    }
+
+    .block-icon__basket-buy img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .basket-buy__heading{
+        font-size: var(--font-size-medium);
+    }
+
+   
+    /* Секция heading-content */
+
+    .heading-content{
+        background-image: url(../IMG/bg-heading-media.png);
+        padding: 38px 25px 68px;
+    }
+
+    .blocks__heading-content{
+        margin-left: 0; 
+        align-items: center;            
+    }
+
+    .block-text__blocks{
+        text-align: center;      
+    }    
+
+    .btn__heading-content{
+        font-size: var(--font-size-light);
+    }
+
+    .block-text__blocks h4{
+        font-weight: var(--font-weight-bold);
+    }
+
+
+    /* Секция pizza */
+
+    .pizza{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .blocks__pizza{
+        gap: 70px;
+    }
+
+    .flex-container__pizza{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .flex-item__flex-container{
+        width: 66.09%;
+    }
+
+
+    /* Секция set-reviews */
+
+    .set-reviews{
+        padding: 90px 65px 87px 63px;    
+    }
+
+    .flex-icon-text__set-reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;       
+    }
+
+    .list-reasons{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .flex-icon-img__set-reviews{
+        display: none;
+    }
+
+    .btn__set-reviews{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    /* Секция info-footer */
+
+    .info-footer{
+        padding-top: 40px;
+        padding-bottom: 25px;
+        gap: 25px;
+    }
+
+    .block__social-icon{
+        margin-top: 25px;
+        margin-right: 0;
+        gap: 43px;
+    }
+
+    .flex-container-info-footer{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговая работа</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/modalWindow.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style575.css">
+    <link rel="stylesheet" href="CSS/modalWindow575.css">
+</head>
+<body>
+    <div class="modal-window" id="modalWindow">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-header">
+                <h2>Написать отзыв</h2>
+                <div class="modal-close" id="modalClose">
+                    <img src="IMG/cross.svg" alt="cross">
+                </div>
+            </div>
+            <div class="modal-main">
+                <form action="#">
+                    <input type="text" name="userName" id="userNameForm" placeholder="Ваше имя" >
+                    <textarea name="review" id="reviewForm" cols="30" rows="10" placeholder="Отзыв"></textarea>
+                    <input type="submit" value="Отправить отзыв">
+                    <div class="approval-block">
+                        <input type="checkbox" name="approval" id="approval">
+                        <label for="approval">Соглашаюсь с <a href="#" class="approval-text">условиями передачи данных</a></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Секция heading вынесена из header чтобы применить позиционирование-->
+    <section class="heading">
+        <div class="wrapper">
+            <div class="blocks__heading">
+                <div class="logo__heading">
+                    <a href="#headingContent">
+                        <img src="IMG/logo.svg" alt="logo">
+                    </a>                        
+                </div>
+                <div class="info__heading">
+                    <div class="icon-info">
+                        <img src="IMG/icon-phone.svg" alt="icon-phone">
+                    </div>
+                    <div class="phone-grhWork__info">
+                        <p class="phone">8 (800) 000-00-00</p>
+                        <p class="grhWork">Ежедневно с 9:00 до 21:00</p>
+                    </div>
+                </div>
+                <div class="basket-buy__heading">
+                    <p class="price__basket-buy">
+                        <span id="priceBuy">0</span>
+                        ₽
+                    </p>
+                    <div class="block-icon__basket-buy">
+                        <img src="IMG/icon-basket-buy.svg" alt="icon-basket-buy">
+                        <span id="valueProducts" class="value-products">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <section class="heading-content" id="headingContent" >
+            <div class="blocks__heading-content">
+                <div class="block-text__blocks">
+                    <h4>Режим работы с 9:00 до 21:00</h4>
+                    <h1>Заказывай пиццу прямо сейчас!</h1>
+                    <h4>Работаем исключительно на доставку в г. Бийске</h4>
+                    <h4>Звони! 8 933 930 0747</h4>
+                </div>
+                <div class="block-link__heading-content">
+                    <a href="#idPizza" class="btn__heading-content">ВЫБРАТЬ ПИЦЦУ</a>
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="pizza" id="idPizza">
+            <div class="wrapper">
+                <div class="blocks__pizza">
+                    <h2 class="universal-h2">Пицца</h2>
+                    <div class="flex-container__pizza">
+                        <div class="flex-item__flex-container">
+                            <img src="IMG/pizza-vetchina.png" alt="pizza-vetchina.png">
+                            <div class="text-block__flex-item">
+                                <h4>Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item">650 ₽/шт. </p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="flex-item__flex-container">
+                            <img src="IMG/pizza-kolbassa.png" alt="pizza-kolbassa.png">
+                            <div class="text-block__flex-item">
+                                <h4>Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item">600 ₽/шт. </p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                        <div class="flex-item__flex-container">
+                            <img src="IMG/pizza-sitniy.png" alt="pizza-sitniy.png">
+                            <div class="text-block__flex-item">
+                                <h4>Краткое описание</h4>
+                                <p>Описание для раскрытия дополнительных деталей</p>
+                                <p class="price__flex-item">680 ₽/шт. </p>
+                                <button class="btn__flex-item">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="set-reviews">
+            <div class="wrapper">
+                <div class="flex-container__set-reviews">
+                    <div class="flex-icon-text__set-reviews">
+                        <h2 class="universal-h2 universal-h2-left">Оставить отзыв</h2>
+                        <ul class="list-reasons">
+                            <li>Для нас важно мнение каждого</li>
+                            <li>Положительно относимся к конструктивной критике, это позволяет сделать наш сервис лучше</li>
+                            <li>Вас что-то не устроило? Опишите проблему. Мы приложим все силы, чтобы решить возникшее недоразуменее</li>
+                        </ul>
+                        <button class="btn__set-reviews" id="btnSetReviews">Оставить отзыв</button>
+                    </div>                    
+                    <div class="flex-icon-img__set-reviews">
+                        <img src="IMG/feedback.png" alt="feedback">
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="info-footer">
+            <div class="wrapper">
+                <div class="flex-container-info-footer">
+                    <p>Copyright © 2023 Pizza Sergio. Powered by Sergio Pizza.</p>
+                    <div class="block__social-icon">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <!-- <a href="#"><img src="IMG/icon-vk.svg" alt="icon-vk"></a>
+                        <a href="#"><img src="IMG/icon-instagram.svg" alt="icon-instagram"></a>-->
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="JS/main.js"></script>
+    <script src="JS/mpdalWindow.js"></script>
+    <script src="JS/basketBuy.js"></script>
+</body>
+</html>
+
+
+<!-- (.flex-item__flex-container>img+.text-block__flex-item>h4+p+p.price__flex-item+button.btn__flex-item)*3 -->

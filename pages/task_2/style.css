@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+                        /* Общие классы */
+.wrapper{
+    width: 81.11%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo__content-icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 40px; 
+}
+
+
+                        /* Секция heading */
+.heading{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #181818;
+}
+
+.heading__navigation{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.heading__menu{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+
+}
+
+.heading__menu a{
+    color: #FFFFFF;
+    font-size: 15px;    
+    font-weight: 400;
+    line-height: 20px;    
+    transition: 0.3s;
+}
+
+.heading__menu a:hover{
+    color: #FFFFFF9F;    
+}
+
+.heading__template{
+    /* margin-top: 15px; */
+    height: 43.6px;
+}
+
+.heading__template a {
+    display: inline-block;
+    border-radius: 14px;
+    background: #fff;
+    padding: 11px 20px 11px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    transition: 0.3;
+}
+
+.heading__template a:hover{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    opacity: .4;
+}
+
+
+                        /* Секция heading_content */
+.heading_content{
+    padding-top: 461px;
+    padding-bottom: 41px;
+    color: #FFFFFF;
+    background-image: url(IMG/bg-heading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.heading_content h4{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.heading_content h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 59.4px; 
+    margin-bottom: 18px;
+}
+
+.heading_content p{
+    width: 580px;
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin: 0 auto;
+}
+
+.heading-content__icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 40px;
+}
+
+span{
+    margin-left: 6px;
+}
+
+.icon-item{
+    display: flex;
+    text-align: start;
+    font-size: 12px;
+}
+
+
+                        /* Секция what */
+.what{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+
+.wrapper__what{
+    width: 81.11%;
+    margin: 0 auto;
+}
+
+.what__heading{
+    margin-bottom: 42px;
+}
+
+.what__heading h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.what__heading p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.blocks__row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.what__block-item{
+    width: 576px;    
+    padding: 30px;
+}
+
+.what-1{
+    background-image: url(IMG/what-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what-2{
+    background-image: url(IMG/what-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what-3{
+    background-image: url(IMG/what-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what-4{
+    background-image: url(IMG/what-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what__block-item h4{
+    margin-top: 421px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.what__block-item p{
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    margin-bottom: 15px;
+}
+
+.block-item__img{
+    width: 143px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #FFFFFF;
+    padding: 5px;
+    display: flex;
+    gap: 6px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+} 
+
+.block-item__img a{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.4px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.block-item__img:hover{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    opacity: .4;
+}
+
+
+                        /* Секция photo__content-fuji */
+.photo__fuji-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #FFFFFF;
+    background-image: url(IMG/sunset_at_mount_fuji.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.photo__content-fuji{
+    margin-top: 260px;
+    margin-right: 62px;    
+}
+    
+
+.photo__content-fuji h4{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.photo__content-fuji p{
+    width: 298px;
+    height: 60px;
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 204px;
+}
+
+
+                        /* Секция tools */
+.tools__container-flex{
+    display: flex;
+}
+
+.content__tools{
+    padding: 173px 74px 123px 70px;
+    background-color: #000000;
+}
+
+.tools{
+    padding: 0;
+}
+
+.tools h4{
+    margin-top:0;
+    margin-bottom: 6px;
+}
+
+.tools h3{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 14px;
+}
+
+.tools p{
+    margin-bottom: 20px;
+}
+
+#checkOut{
+    width: 152px;
+}
+
+.photo__content-tools{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url(IMG/tools.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.photo__content-icons{
+    margin-bottom: 40px;
+    color: #FFFFFF;        
+}
+
+
+                        /* Секция photo__content-mostera */
+.photo__mostera-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #FFFFFF;
+    background-image: url(IMG/monstera.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.photo__content-mostera{
+    padding-top: 260px;
+    padding-right: 87px;         
+}
+
+.photo__content-mostera h4{    
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.photo__content-mostera p{
+    width: 298px;
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 204px;
+}
+
+
+                        /* Секция  clients__items */
+.clients__items{
+    background-color: #000000;
+}
+
+.clients__items-blocks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients__items h2{
+    color: #FFFFFF;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-top: 113px;
+    margin-bottom: 15px;
+}
+
+.clients__items p{
+    color: #C0C0C0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+
+.flex__container-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 109px;
+    padding: 40px 46px;
+    margin-bottom: 100px;
+}
+
+
+                        /* Секция photo__content-himalayas */
+.photo__himalayas-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #FFFFFF;
+    background-image: url(IMG/himalayas.png);
+    background-repeat: no-repeat;    
+    background-size: 100% 100%;
+}
+
+.photo__content-himalayas{
+    padding-top: 250px;
+    padding-right: 119px; 
+    
+}
+
+.photo__content-himalayas h4{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.photo__content-himalayas p{
+    width: 241px;
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 195px;
+}
+
+
+                        /* Секция help */
+.help__content-blocks{
+    background-color: #000000;
+}
+
+.help__content{
+    width: 39.65%;
+    margin: 0 auto;
+}
+
+.content-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-blocks h2{
+    padding-top: 113px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.content-blocks p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+
+.help-bottom{
+    width: 154px;
+    margin-bottom: 108px;
+}
+
+
+                        /* Секция footer */
+footer{
+    background-color: #000000;
+}
+
+.wrapper__footer{
+    width: 81.11%;
+    margin: 0 auto;
+}
+
+.navigation__site-blocks{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 36px;
+}
+
+.navigation__site-blocks h4{
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo-block{
+    margin-right: 270px;
+}
+
+.logo-block p{
+    color: #C0C0C0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.block-areas{
+    margin-right: 55px;
+}
+
+.block-areas p, .block-pages p{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.subscribe-block{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;    
+}
+
+.subscribe__contant h4{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subscribe__contant p{
+    color: #C0C0C0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.input_text-block{
+    width: 458px;
+    height: 54px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;  
+}
+
+textarea{
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+button{
+    border: 1px solid #FFFFFF;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 11px 6px;
+    background-color: #FFFFFF;
+}
+
+.end-blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 104px;
+}
+
+.end-blocks p, 
+.end-blocks a{
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.network-block{
+    display: flex;
+    gap: 20px;
+}

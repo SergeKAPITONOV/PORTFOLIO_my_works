@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: bisque;
+    height: 100vh;
+}
+
+form{
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0 15px 15px;
+    gap: 20px; 
+}
+
+.form-row{
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+label{
+   cursor: pointer;
+}
+
+input[type="number"],
+input[type="text"]{
+    height: 30px;
+    width: 75px;
+    padding: 5px;
+    transition: .1s;
+    margin-left: 5px;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: 3px solid blueviolet;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type="submit"]:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+input[type="password"]:invalid,
+input[type="email"]:invalid{
+    box-shadow: 0 0 3px 3px red;
+}
+
+input[type="password"]:focus:invalid,
+input[type="email"]:focus:invalid{
+    box-shadow: none;
+}
+
+/* Секция Авторизация */
+.authorization{
+    padding-top: 100px;
+}
+
+
+input[type="email"],
+input[type="password"]{
+    height: 30px;
+    padding: 5px;
+    transition: .1s;
+    margin-left: 5px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 4 (bootstrap)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Навбар</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ссылка</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Выпадающий список
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Действие</a></li>
+                      <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled">Отключенная</a>
+                  </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                  <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="container my-carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="slider1.jpg">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="slider2.jpg">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="slider3.jpg">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="main-content py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col about">
+                    <h1>О проекте</h1>
+                    <img src="img/about.jpg" alt="about" class="rounded-circle float-start pe-3">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis et at, natus voluptates nobis mollitia. Eius eligendi sit nam, eveniet modi, tempora maxime quo repellendus fugit quis corporis impedit nesciunt.
+                    Natus cupiditate unde eum? Reiciendis harum consequuntur iste numquam labore deserunt iure iusto sequi explicabo, ipsum nesciunt accusantium quisquam magni excepturi, debitis qui distinctio! Hic consequatur illum eum atque velit?
+                    Praesentium minus aperiam ut, sunt odio dolorem eum commodi accusantium molestiae labore voluptatum corporis saepe autem nesciunt exercitationem beatae veniam eveniet enim, doloremque quas iusto hic! Itaque obcaecati modi ad!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus at molestias error, nemo adipisci laboriosam dolorem! Dolore, nisi laudantium iusto eaque saepe vero iure molestias ex dolorum velit deserunt maxime.
+                    Quidem distinctio praesentium velit totam iusto quod officiis fugit explicabo quibusdam odio maiores ipsam vel, cumque expedita sapiente. Asperiores repudiandae nemo aliquam. Dolores placeat voluptate dolor similique mollitia illo distinctio!
+                    Tenetur eius quidem aperiam eos, iste nihil atque rem voluptate voluptates dolor quod pariatur est molestiae ab ea impedit distinctio incidunt obcaecati! Debitis, at tempore! Laborum alias est veritatis nam?
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>

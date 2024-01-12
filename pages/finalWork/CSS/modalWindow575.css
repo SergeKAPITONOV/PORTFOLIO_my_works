@@ -1,0 +1,28 @@
+@media (max-width:576px){
+
+    .modal-content{
+        width: 100%;
+        margin: auto;
+    }
+
+    .modal-close img{
+        width: 48px;
+        height: 48px;
+    }
+
+    .approval-block label,
+    .approval-text{
+        font-size: 18px;
+    }
+
+    input[type="checkbox"]{
+        width: 14px;
+        height: 14px;
+    }
+
+    input[type="text"],
+    textarea{
+        font-size: 18px;
+    }
+
+}

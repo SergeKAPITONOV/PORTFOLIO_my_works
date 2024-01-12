@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="calculate">
+            <div class="wrapper">
+                <h2>Calculate</h2>
+                <form action="#" id="form">
+                    <div class="form-row">
+                        <div class="input-block">
+                            <label for="numberA">Введите число А:</label>
+                            <input type="text" name="numberA" value="0" id="numberA">
+                        </div>
+                        <div class="input-block">
+                            <label for="numberB">Введите число B:</label>
+                            <input type="text" name="numberB" value="0" id="numberB">
+                        </div>                        
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-block">
+                            <label for="sumAB">А + В =</label>
+                            <input type="text" name="sumAB" value="0" id="sumAB">
+                        </div>
+                        <div class="input-block">
+                            <label for="minusAB">А - В =</label>
+                            <input type="text" name="minusAB" value="0" id="minusAB">
+                        </div>
+
+                        <div class="input-block">
+                            <label for="multiAB">А * В =</label>
+                            <input type="text" name="multiAB" value="0" id="multiAB">
+                        </div>
+                        <div class="input-block">
+                            <label for="divisionAB">А / В =</label>
+                            <input type="text" name="divisionAB" value="0" id="divisionAB">
+                        </div>                     
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Calculate" id="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="authorization">
+            <div class="wrapper">
+                <h2>Authorization</h2>
+                <form action="#">
+                    <div class="input-block">
+                        <label for="">Введите ваш логин</label>
+                        <input type="email" name="Login" id="formLogin" placeholder="example@mail.com">
+                    </div>
+                    <div class="input-block">
+                        <label for="">Введите ваш пароль</label>
+                        <input type="password" name="Password" id="formPassword">
+                    </div>
+                    <div class="input-block">
+                        <input type="submit" value="Authorization" id="submitAuthorization">
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>

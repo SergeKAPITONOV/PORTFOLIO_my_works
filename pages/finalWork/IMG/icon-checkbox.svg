@@ -1,0 +1,23 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#E5E4E2"/>
+<g id="Form 1920">
+<mask id="path-1-inside-1_0_1" fill="white">
+<rect x="-80" y="-592" width="1200" height="645" rx="5"/>
+</mask>
+<rect x="-80" y="-592" width="1200" height="645" rx="5" fill="white"/>
+<g id="Fields &#38; button">
+<g id="Button &#38; check">
+<g id="check">
+<g id="icon">
+<g id="checkbox">
+<rect x="0.5" y="0.5" width="19" height="19" rx="1.5" fill="#0776A0"/>
+<path id="check_2" d="M5 9.16667L8.33333 12.5L15.8333 5" stroke="white"/>
+<rect x="0.5" y="0.5" width="19" height="19" rx="1.5" stroke="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<rect x="-80" y="-592" width="1200" height="645" rx="5" stroke="#0776A0" stroke-width="16" mask="url(#path-1-inside-1_0_1)"/>
+</g>
+</svg>
