@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  /* background-color: #111111; */
+  background-image: url(IMG/cottoning_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+
+.container>div:nth-of-type(1){
+  background-image: url(IMG/airbus350_1280.jpg);
+}
+
+.container>div:nth-of-type(2){
+  background-image: url(IMG/boeing777_1280.jpg);
+}
+
+.container>div:nth-of-type(3){
+  background-image: url(IMG/boeing737_1280.jpg);
+}
+
+.container>div:nth-of-type(4){
+  background-image: url(IMG/airbus380_1280.jpg);
+}
+
+.container>div:nth-of-type(5){
+  background-image: url(IMG/Engine\ Alliance\ GP7000_airbus380_1280.jpg);
+}
+
+.slide{
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+  flex: 1;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  opacity: .3;
+}
+
+.slide h3{
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active{
+  flex: 10;
+  opacity: 1;
+}
+
+.slide.active h3{
+  opacity: 1;
+  transition: opacity .3s ease-in .4s;
+}
