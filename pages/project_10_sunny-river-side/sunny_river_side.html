@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Солнечный берег | аренда домов</title>
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="CSS/slide_pictures.css">
+  <link rel="stylesheet" href="CSS/qr_window.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- <link rel="stylesheet" href="CSS/style_1920.css"> -->
+</head>
+<body>
+  <!-- Секция "qr__window" -->
+  <div class="qr__window" id="qrWindow">
+    <div class="qr__window-content" id="qrContent">
+        <div class="window-header">
+            <p>Ответим на звонок с 08:00 до 20:00. UTC +3</p>
+            <div class="modal-close" id="modalClose">
+                <img src="IMG/close_green.png" alt="close">
+            </div>
+        </div>
+        <div class="qr__picture">
+          <img src="IMG/qr_big_size.png" alt="qr_big_size">
+        </div>        
+    </div>
+  </div>
+  <!-- Секция "header" -->
+  <header>
+    <section class="heading__main">
+      <div class="heading">
+        <div class="wrapper">
+          <div class="heading__content box__pdng">
+            <div class="adress-block">
+              <a href="https://yandex.ru/maps/?ll=39.732556%2C57.639941&z=14.2" target="_blank"></a>
+              <p>Ярославская область,<br>Ивняковское сельское<br>поселение.</p>
+            </div>
+
+            <div class="logo-block">
+              <a href="#">
+                <img  src="IMG/logo_main.jpg" class="box__shdw-rds" alt="logo_main">
+              </a>
+            </div>
+
+            <div class="phone-block" id="phoneBlock">
+              <div class="qr__phone-block">
+                <img src="IMG/logo_qr-phone.jpg" alt="logo_qr-phone">
+              </div>                  
+              <div class="content__phone-block">
+                <h4>+7 (920) 656-12-83</h4>                                
+                <p>Ежедневно с 08:00 до 20:00.</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Секция "carousel" -->
+  <section class="carousel">
+    <!-- <div class="wrapper"> -->
+      <div class="carousel slide" id="carouselExampleCaptions" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/slide_head_3.jpg" class="d-block w-100" alt="slide_head_3">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Снять дом</h1>
+              <p>на живописном берегу реки Пахма.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/slide_head_2.jpg" class="d-block w-100" alt="slide_head_2">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Аренда дома</h1>
+              <p>на закрытой территориии с детской площадкой, собственным пляжем, баней на дровах, беседкой-кальянной.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/slide_head_1.jpg" class="d-block w-100" alt="slide_head_1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Уютное место</h1>
+              <p>для приятного отдыха или простор для корпоративных мероприятий.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    <!-- </div> -->
+  </section>  
+  <!-- Секция "slide_pictures" -->
+  <section class="slide__pitures box__pdng">
+    <div class="wrapper">
+      <div class="slide__pitures-content" id="slideHouses">
+        <h4>Предлагаем к бронированию</h4>
+        <h3>Четыре уютных дома</h3>
+        <p>комфортно разместят от 10 до 18 гостей.</p>
+      </div>
+      <div class="slide__pitures-container">     
+        <div class="slide__pitures-block box__shdw-rds">
+          <div class="sidebar">
+            <div style="background: linear-gradient(190deg, #53779c -10%, #2E4053 180%);">
+              <div class="sidebar__content">
+                <div class="sidebar__content_block">
+                  <h5>"Усадьба" Дом 5</h5>
+                  <p>на 17 гостей.</p>
+                  <lu class="list__house">
+                    <li>Одноэтажный дом ??? кв.м.;</li>
+                    <li>Веранда 160 кв.м (оплата отдельно)</li>
+                    <li>Кухня c техникой и посудой;</li>
+                    <li>5 спален;</li>
+                    <li>2 сан. узла.</li>                  
+                  </lu>
+                </div>
+                <p>от 22 000 ₽/сутки</p>
+                <div class="sidebar__btn">
+                  <button class="sidebar__btn-block btn__basic">Бронировать</button>
+                </div>
+              </div>  
+            </div>
+            <div style="background: linear-gradient(200deg, #5A5A5A -30%, #592400 90%);">
+              <div class="sidebar__content">
+                <div class="sidebar__content_block">
+                  <h5>"Изба" Дом 3</h5>
+                  <p>на 12 гостей.</p>
+                  <lu class="list__house">
+                    <li>Одноэтажный дом ??? кв.м.;</li>
+                    <li>Светлый холл;</li>
+                    <li>Кухня c техникой и посудой;</li>
+                    <li>3 спальни;</li>
+                    <li>1 сан. узел.</li>                  
+                  </lu>
+                </div>
+                <p>от 12 000 ₽/сутки</p>
+                <div class="sidebar__btn">
+                  <button class="sidebar__btn-block btn__basic">Бронировать</button>
+                </div>
+              </div>
+            </div>
+            <div style="background: linear-gradient(210deg, #B7950B 5%, #436500 80%);" id="slidebarHouseTwo">
+              <div class="sidebar__content">
+                <div class="sidebar__content_block">
+                  <h5>"Светлица" Дом 2</h5>
+                  <p>на 10 гостей.</p>
+                  <lu class="list__house">
+                    <li>Двухэтажный дом 120 кв.м.;</li>
+                    <li>Светлый холл;</li>
+                    <li>Кухня c техникой и посудой;</li>
+                    <li>2 спальни;</li>
+                    <li>2 сан. узла.</li>                  
+                  </lu>
+                </div>
+                <p>от 10 000 ₽/сутки</p>
+                <div class="sidebar__btn">
+                  <button class="sidebar__btn-block btn__basic">Бронировать</button>
+                </div>
+              </div>
+            </div>
+            <div style="background: linear-gradient(240deg, #004D40 -40%, #00796B  120%);" id="slidebarHouseOne">
+              <div class="sidebar__content">
+                <div class="sidebar__content_block">
+                  <h5>"Терем" Дом 1 </h5>
+                  <p>на 18 гостей.</p>
+                  <lu class="list__house">
+                    <li>Двухэтажный дом 250 кв.м.;</li>
+                    <li>Светлый холл;</li>
+                    <li>Кухня c техникой и посудой;</li>
+                    <li>6 спален;</li>
+                    <li>2 сан. узла.</li>                  
+                  </lu>
+                </div>
+                <p>от 22 000 ₽/сутки</p>
+                <div class="sidebar__btn">
+                  <button class="sidebar__btn-block btn__basic">Бронировать</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-slide">
+            <div style="background-image: url(PAGES/HOUSE_1/IMG/big_house.png);">           
+              <button class="main-slide__btn-block btn__basic">Больше фото</button>                 
+            </div>
+            <div style="background-image: url(PAGES/HOUSE_2/IMG/house_two.png);">
+              <button class="main-slide__btn-block btn__basic">Больше фото</button>
+            </div>
+            <div style="background-image: url(PAGES/HOUSE_3/IMG/house_three.png);">
+              <button class="main-slide__btn-block btn__basic">Больше фото</button>
+            </div>
+            <div style="background-image: url(PAGES/HOUSE_5/IMG/house_five.png);">
+              <button class="main-slide__btn-block btn__basic">Больше фото</button>
+            </div>
+          </div>
+
+          <div class="controls">
+            <button class="down-button btn__basic">
+              <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button btn__basic">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- Секция "hotel__block" -->
+  <section class="hotel__block" id="hotelRoom">
+    <div class="wrapper">
+      <div class="hotel__block-header">
+        <h3>Гостиница Дом 4</h3>
+        <p>Удобные номера с 2-х и 3-х местным размещением в дали от городской суеты.</p>        
+      </div>
+      <!-- Номер_1  -->
+      <div class="hotel__block-room" id="hotelRoomOne">
+        <div class="hotel__block-pictures">
+          <div class="hotel__block-pictures-bathroom box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/bathroom_1.jpg" alt="bathroom_1">
+          </div>
+          <div class="hotel__block-pictures-room box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/room_1.jpg" alt="room_1">
+          </div>
+        </div>
+        <div class="hotel__block-content">
+          <div class="hotel__block-content-head">
+            <h5>НОМЕР №1</h5>
+            <p>2-х местный</p>
+          </div>
+          <div class="hotel__block-content-grid">
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кровать</p>
+              <p>2-е односпальных</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кухня</p>
+              <p>поcуда, микроволновая печь, эл.чайник</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>сан.узел</p>
+              <p>с душевой кабиной</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>верада </p>
+              <p>с мангалом</p>
+            </div>
+          </div>
+          <p>3 000 ₽/сутки</p>
+          <div class="hotel__btn">
+            <button class="holel__btn-block btn__basic">Бронировать</button>
+          </div>
+        </div>
+      </div>
+      <!-- Номер 2 -->
+      <div class="hotel__block-room room__row-reverse" id="hotelRoomTwo">
+        <div class="hotel__block-pictures img__row-reverse">
+          <div class="hotel__block-pictures-bathroom box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/bathroom_2.jpg" alt="bathroom_2">
+          </div>
+          <div class="hotel__block-pictures-room box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/room_2.jpg" alt="room_2">
+          </div>
+        </div>  
+        <div class="hotel__block-content">
+          <div class="hotel__block-content-head">
+            <h5>НОМЕР №2</h5>
+            <p>3-х местный</p>
+          </div>
+          <div class="hotel__block-content-grid">
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кровать </p>
+              <p>2-х спальная, диванчик</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кухня</p>
+              <p>поcуда, микроволновая печь, эл.чайник</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>сан.узел</p>
+              <p>с душевой кабиной</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>верада </p>
+              <p>с мангалом</p>
+            </div>
+          </div>
+          <p>4 000 ₽/сутки</p>
+          <div class="hotel__btn">
+            <button class="holel__btn-block btn__basic">Бронировать</button>
+          </div>
+        </div>
+      </div>
+      <!-- Номер 3 -->
+      <div class="hotel__block-room" id="hotelRoomThree">
+        <div class="hotel__block-pictures">
+          <div class="hotel__block-pictures-bathroom box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/bathroom_3.jpg" alt="bathroom_3">
+          </div>
+          <div class="hotel__block-pictures-room box__shdw-rds">
+            <img src="PAGES/HOTELROOM/IMG/room_3.jpg" alt="room_3">
+          </div>
+        </div>  
+        <div class="hotel__block-content">
+          <div class="hotel__block-content-head">
+            <h5>НОМЕР №3</h5>
+            <p>2-х местный</p>
+          </div>
+          <div class="hotel__block-content-grid">
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кровать </p>
+              <p>2-х спальная</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>кухня</p>
+              <p>поcуда, микроволновая печь, эл.чайник</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>сан.узел</p>
+              <p>с душевой кабиной</p>
+            </div>
+            <div class="content__grid-block">
+              <img src="IMG/logo_ok_blue.png" alt="logo_ok">
+              <p>верада </p>
+              <p>с мангалом</p>
+            </div>
+          </div>
+          <p>3 000 ₽/сутки</p>
+          <div class="hotel__btn">
+            <button class="holel__btn-block btn__basic">Бронировать</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Секция "rest" -->
+  <section class="rest__block box__pdng">
+    <div class="wrapper">
+      <div class="rest__block-content">
+        <div class="rest__block-content_header">
+          <h3>Досуг</h3>
+          <p>В распоряжении гостей есть дополнительная объекты для организации отдыха.</p>
+        </div>
+        <div class="rest__block-content_flex">
+          <div class="rest__block-card" id="bathHouse">
+            <div class="rest__block-card_img box__shdw-rds" >
+              <img src="IMG/bathhouse.png" alt="bathhouse">
+            </div>
+            <h5>Русская баня на дровах</h5>
+            <li>на 6 человек</li>
+            <p>3 000 ₽/ 2 часа</p>
+            <div class="hotel__btn">
+              <button class="rest__btn-block btn__basic">Бронировать</button>
+            </div>
+          </div>
+          <div class="rest__block-card" id="pavilionHookah">
+            <div class="rest__block-card_img box__shdw-rds">
+              <img src="IMG/pavilion.png" alt="pavilion">
+            </div>
+            <h5>Беседка-кальянная</h5>
+            <li>на 8 - 10 человек</li>
+            <p>5 000 ₽/сутки</p>
+            <div class="hotel__btn">
+              <button class="rest__btn-block btn__basic">Бронировать</button>
+            </div>
+          </div>
+          <div class="rest__block-card" id="terraceSummer">
+            <div class="rest__block-card_img box__shdw-rds">
+              <img src="IMG/terrace.png" alt="terrace">
+            </div>
+            <h5>Летняя веранда</h5>
+            <li>площадь 200 кв.м, кейтеринг</li>
+            <p>от 3 000 ₽ с человека</p>
+            <div class="hotel__btn">
+              <button class="rest__btn-block btn__basic">Бронировать</button>
+            </div>
+          </div>
+          <div class="rest__block-card" id="museumOpenAir">
+            <div class="rest__block-card_img box__shdw-rds">
+              <img src="IMG/museum.png" alt="museum">
+            </div>
+            <h5>Музей</h5>
+            <li>Старых вещей из города Молога </li>
+            <p>Бесплатно</p>
+            <div class="hotel__btn">
+              <button class="rest__btn-block btn__basic">Бронировать</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Секция "advantages" -->
+  <section class="advantages__block box__pdng">
+    <div class="wrapper">
+      <div class="advantages__block-content">
+        <div class="advantages__block-content_header">
+          <h3>Нас выгодно отличает</h3>
+        </div>
+        <div class="advantages__block-content_flex">
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_location.png" alt="location">
+            <p>20 минут от<br>центра Ярославля</hз>
+          </div>
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_river-side.png" alt="icons8_river-side">
+            <p>Берег реки Пахма</p>
+          </div>
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_catering.png" alt="icons8_catering">
+            <p>Кейтеринг</p>
+          </div>
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_child.png" alt="location">
+            <p>Детская площадка</p>
+          </div>
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_suny-beach.png" alt="icons8_suny-beach">
+            <p>Собственный пляж</p>
+          </div>
+          <div class="advantages__block-content_card">
+            <img src="IMG/ICON/icons8_fishing.png" alt="icons8_fishing">
+            <p>Рыбалка</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Секция "about_us" -->
+  <section class="about__block box__pdng" id="aboutUs">
+    <div class="wrapper">
+      <div class="about__block-content">
+        <div class="about__block-content_header">
+          <h3>Немного о нас</h3>
+        </div>
+        <div class="about__block-content_flex">
+          <div class="about__block-content_text">
+            <p>В одном километре от города Ярославль, на берегу реки Пахма находимся мы - «Солнечный берег».</p>
+            <p>Здесь уютно, красиво и не скучно. Можно искупаться в реке Пахма, попариться в русской баньке на дровах, пожарить шашлык, поймать и закоптить рыбку, покататься на пони, лошадях, заглянуть в музей старых вещей из затопленного Рыбинским водохранилищем города Мологи, покачаться на качелях и гамаках, детям в радость детская площадка.</p>
+            <p>Наша служба кейтеринга освободит вас от необходимости терять время отдыха стоя у плиты.</p> 
+            <p>Любое корпоративное мероприятие будь то свадьба, выпускной, тимбилдинг в «Солнечный берег» — это свежий воздух, легкий ветерок от реки, красивые локации и возможность размещения гостей.</p>  
+          </div>
+          <div class="about__block-content_pictures ">
+            <a href="https://yandex.ru/maps/?ll=39.732556%2C57.639941&z=14.2" target="_blank">
+              <img src="IMG/location_point.png" alt="point" class="box__shdw-rds">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Секция "footer" -->
+  <footer>
+    <section class="footer__block box__pdng">
+        <div class="wrapper">
+          <div class="footer__block-navbar">
+            <div class="footer__block-content">
+              <div class="footer__block-content-about">
+                <a href="#aboutUs">O нас</a>
+              </div>              
+              <div class="footer__block-content-connect">
+                <a href="#">Контакты</a>
+                <a href="#" id="aFooterPhone">телефон</a>
+                <a href="#">e-mail</a>
+              </div>
+              <div class="footer__block-content-houses">
+                <a href="#slideHouses">Дома</a>
+                <a href="#slidebarHouseOne">дом №1</a>
+                <a href="#">дом №2</a>
+                <a href="#">дом №3</a>
+                <a href="#">дом №5</a>
+              </div>
+              <div class="footer__block-content-room">
+                <a href="#hotelRoom">Номера</a>
+                <a href="#hotelRoomOne">2-х местный №1</a>
+                <a href="#hotelRoomTwo">3-х местный №2</a>
+                <a href="#hotelRoomThree">2-х местный №3</a>
+              </div>
+              <div class="footer__block-content-room">
+                <a href="#">Досуг</a>
+                <a href="#bathHouse">баня</a>
+                <a href="#pavilionHookah">беседка-кальянная</a>
+                <a href="#terraceSummer">летняя веранда</a>
+                <a href="#museumOpenAir">музей</a>
+              </div>              
+            </div>
+          </div>
+          <div class="block__social-icon">
+              <a href="https://vk.com/club88707296" target="_blank"></a>
+              <a href="https://www.instagram.com/sbereg76?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"></a>
+          </div>                    
+          <div class="footer__block-end">
+            <ul>
+              <li>Copyright © 2023 "Sunny river side". Powered by "Sunny river side".</li>
+              <li>Development & design "Sergey Kapitonov Studio"</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+</footer>
+
+  <script src="JS/qr_Window.js"></script>
+  <script src="JS/slide_pictures.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
