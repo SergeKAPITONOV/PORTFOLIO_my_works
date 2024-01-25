@@ -14,11 +14,13 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <title>Калькулятор</title>
+    <title>01. JS Base</title>
     <!-- <script src="tasks.js" defer></script> -->
     <!-- <script src="theory.js" defer></script> -->
-  </head>
-  <body class="bg-dark text-light">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+  <body class="bg-dark text-light wrapeer">
     <div class="container w-50 pt-5">
       <h1>Калькулятор</h1>
       <input
@@ -35,11 +37,11 @@
         id="input2"
         value=""
       />
-      <div class="d-flex mb-2">
-        <button class="btn btn-success flex-grow-1 mx-2" id="plus">+</button>
-        <button class="btn btn-danger flex-grow-1 mx-2" id="minus">-</button>
-        <button class="btn btn-success flex-grow-1 mx-2" id="multiply">*</button>
-        <button class="btn btn-danger flex-grow-1 mx-2" id="division">/</button>
+      <div class="d-flex mb-2" id="arrBtn">
+        <button class="btn btn-outline-info flex-grow-1 mx-2" id="plus">+</button>
+        <button class="btn btn-outline-info flex-grow-1 mx-2" id="minus">-</button>
+        <button class="btn btn-outline-info flex-grow-1 mx-2" id="multiply">*</button>
+        <button class="btn btn-outline-info flex-grow-1 mx-2" id="division">/</button>
       </div>
       <button class="btn btn-outline-info w-100 mb-2" id="submit">
         Вычислить

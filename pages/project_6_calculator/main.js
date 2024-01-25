@@ -11,37 +11,64 @@ const resultElement = document.getElementById('result')
 const unSubmitElement = document.getElementById('un-submit')
 let actionMath = ''
 
+
+
+
+// console.log(resultElement.textContent);
+// plusBtn.addEventListener('click', ()=>{
+//   plusBtn.
+// })
+const arrayBtn = document.querySelectorAll('.btn-outline-info')
+console.log(arrayBtn);
+
+function actionBtn(){
+  arrayBtn.forEach(btnAct => {
+    btnAct.style = 'bg-dark'
+  })
+}
+
+
 plusBtn.onclick = function () {
   actionMath = '+'
+  actionBtn()
+  this.style.borderColor = 'red'
 }
 minusBtn.onclick = function () {
   actionMath = '-'
+  actionBtn()
+  this.style.borderColor = 'red'
 }
 multiplyBtn.onclick = function () {
   actionMath = '*'
+  actionBtn()
+  this.style.borderColor = 'red'
 }
 divisionBtn.onclick = function () {
   actionMath = '/'
+  actionBtn()
+  this.style.borderColor = 'red'
 }
 
-function printResult(getResult){
-  if (getResult < 0){
+// button.addEventListener('click', actionBtn)
+
+function printResult(result){
+  if (result < 0){
     resultElement.style.color = 'red'
-  } else if (getResult == 'на 0 делить нельзя'){
+  } else if (result == 'на 0 делить нельзя'){
     resultElement.style.color = 'red'  
   } else {
     resultElement.style.color = 'green'
   }
-  resultElement.textContent = getResult;
+  resultElement.textContent = result
 }
 
 function getAction(input1, input2, actionMath) {
-  const num1 = parseFloat(input1.value)
-  const num2 = parseFloat(input2.value)
+  const num1 = +(input1.value)
+  const num2 = +(input2.value)
   if (actionMath == '+'){
     return (num1 + num2).toFixed(2)
   } else if (actionMath == '-'){
-    return (num1 - num2).toFixed(2)  
+    return (num1 - num2).toFixed(2) 
   } else if (actionMath == '*'){
     return (num1 * num2).toFixed(2)  
   } else if (actionMath == '/'){
@@ -49,8 +76,8 @@ function getAction(input1, input2, actionMath) {
   }  
 }
 submitBtn.onclick = function () {
-  const exitResult = getAction(input1, input2, actionMath)
-  printResult(exitResult)
+  const result = getAction(input1, input2, actionMath)
+  printResult(result)
 }
 
 function clearAllFormInputs() {
