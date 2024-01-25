@@ -44,6 +44,10 @@
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 p{
     font-size: var(--font-size-light);    
 }
@@ -86,6 +90,7 @@ body{
     cursor: pointer;
     font-size: var(--font-size-mini);
     padding: 1rem;
+    text-decoration: none;
 }
 
 .btn__basic:hover {

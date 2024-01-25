@@ -4,6 +4,9 @@ const sideBar = document.querySelector('.sidebar')
 const mainSlide = document.querySelector('.main-slide')
 const containerSlide = document.querySelector('.slide__pitures-block')
 const slidesCount = mainSlide.querySelectorAll('div').length
+const houseTwoBtn = document.getElementById('houseTwo')
+const houseThreeBtn = document.getElementById('houseThree')
+const houseFiveBtn = document.getElementById('houseFive')
 
 let activeSlideIndex = 0
 
@@ -39,8 +42,24 @@ function changeSlide(direction) {
     }
 
     const heightDiv = containerSlide.clientHeight
-
     mainSlide.style.transform = `translateY(-${activeSlideIndex * heightDiv}px)`
-
     sideBar.style.transform = `translateY(${activeSlideIndex * heightDiv}px)`
+       
 }
+
+// Секция "footer"
+houseTwoBtn.addEventListener('click', ()=> {
+    mainSlide.style.transform = `translateY(-${1 * 800}px)`
+    sideBar.style.transform = `translateY(${1 * 800}px)`
+})
+
+houseThreeBtn.addEventListener('click', ()=> {
+    mainSlide.style.transform = `translateY(-${1 * 1600}px)`
+    sideBar.style.transform = `translateY(${1 * 1600}px)`
+})
+
+houseFiveBtn.addEventListener('click', ()=> {
+    mainSlide.style.transform = `translateY(-${1 * 2400}px)`
+    sideBar.style.transform = `translateY(${1 * 2400}px)`
+})
+
