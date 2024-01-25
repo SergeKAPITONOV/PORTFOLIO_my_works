@@ -7,7 +7,7 @@ const slidesCount = mainSlide.querySelectorAll('div').length
 
 let activeSlideIndex = 0
 
-sideBar.style.top = `-${(slidesCount - 1) * 600}px`
+sideBar.style.top = `-${(slidesCount - 1) * 100}vh`
 
 upButton.addEventListener('click', ()=> {
     changeSlide('up')
