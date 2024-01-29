@@ -1,0 +1,40 @@
+@media screen and (min-width:1400) and (max-width: 1919px){
+  
+    :root{
+        --font-size-main: 16px;
+        --font-size-light: 18px;
+        --font-size-h2: 40px;
+        --font-size-h3: 22px;
+        --font-size-h5: 20px;
+    }
+    
+    .wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .work-grid{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;        
+    }
+        
+    .work-grid>div{
+        display: flex;
+        flex-direction: column;   
+        border-radius: 1rem;
+        border: solid .06rem gray;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;    
+        opacity: .6;
+        width: 450px;
+        height: 600px;     
+    }
+
+    .work-grid_piture{
+        width: 400px;
+        height: 450px;
+    } 
+}

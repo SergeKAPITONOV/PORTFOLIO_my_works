@@ -1,0 +1,80 @@
+@media screen and (max-width: 575px){
+    
+    :root{
+        --font-size-main: 12px;
+        --font-size-light: 14px;
+        --font-size-h2: 32px;
+        --font-size-h3: 20px;
+        --font-size-h5: 16px;
+    }
+    
+    .wrapper{
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    h1{
+        margin-bottom: 1rem;
+    }
+
+    .heading__mobile{
+        visibility: visible;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-top: 1rem;
+    }
+
+    .heading__content-mobile{
+        display: flex;
+        width: 450px;
+        justify-content:center;
+        gap: 2rem;
+    }
+
+    .heading__content-mobile_text{
+        display: block;
+    }
+    
+    .content-mobile_name h3:nth-of-type(2){
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .heading__content-block_contact{        
+        width: 450px;
+        padding-left: 15.50rem;
+    }
+
+    .heading__content{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .work-grid{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;        
+    }
+        
+    .work-grid>div{
+        display: flex;
+        flex-direction: column;   
+        border-radius: 1rem;
+        border: solid .06rem gray;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;    
+        opacity: .6;
+        width: 450px;
+        height: 600px;     
+    }
+
+    .work-grid_piture{
+        width: 400px;
+        height: 450px;
+    }    
+}
