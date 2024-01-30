@@ -1,4 +1,4 @@
-@media screen and (min-width: 575px) and (max-width: 766px){
+@media screen and (min-width: 574px) and (max-width: 766px){
     
     :root{
         --font-size-main: 12px;
@@ -43,9 +43,8 @@
         font-weight: 700;
     }
     
-    .heading__content-block_contact{        
-        width: 450px;
-        padding-left: 15.50rem;
+    .heading__content-block_contact{
+        margin-top: 1rem;
     }
 
     .heading__content{
