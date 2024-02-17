@@ -144,6 +144,10 @@ a{
     text-align: end;    
 }
 
+.fotter__content-works a:hover{
+    color: var(--color-purple);
+}
+
 .fotter__content-almaMater_logo{
     display: flex;
     gap: .6rem;
@@ -166,6 +170,15 @@ a{
 
 .footer__end p{
     font-size: var(--font-size-main);
+}
+
+.set__first{
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.set__second{
+    font-weight: 600;
 }
 
 /* Секция  "works"*/

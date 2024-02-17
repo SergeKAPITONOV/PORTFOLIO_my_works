@@ -1,4 +1,4 @@
-@media screen and (min-width: 574px) and (max-width: 766px){
+@media screen and (min-width: 575px) and (max-width: 766px){
     
     :root{
         --font-size-main: 12px;
@@ -35,7 +35,8 @@
     }
 
     .heading__content-mobile_text{
-        display: block;
+        display: flex;
+        align-items: flex-end;
     }
     
     .content-mobile_name h3:nth-of-type(2){
@@ -67,9 +68,11 @@
         justify-content: space-between;
         text-align: center;
         align-items: center;    
-        opacity: .6;
+        opacity: 1;
         width: 450px;
-        height: 600px;     
+        height: 600px; 
+        background-color: #040b59;
+        box-shadow: .16rem .4rem .8rem 0 rgba(255, 255, 255, 0.9);    
     }
 
     .work-grid_piture{
