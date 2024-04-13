@@ -6,15 +6,30 @@
     <title>WEB-разработка</title>
     <link rel="icon" href="img/rubik_cube_bgp.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="qr_window.css">
     <link rel="stylesheet" href="style_320.css">
     <link rel="stylesheet" href="style_575.css">
     <link rel="stylesheet" href="style_767.css">
     <link rel="stylesheet" href="style_1024.css">
     <link rel="stylesheet" href="style_1400.css">
     <link rel="stylesheet" href="style_1920.css">
-</head>
-
+</head>    
 <body>
+    <!-- Секция "qr__window" -->
+    <div class="qr__window" id="qrWindow">
+        <div class="qr__window-content" id="qrContent">
+            <div class="window-header">
+                <p>Отвечу на звонок с 09:00 до 21:00. UTC +3</p>
+                <div class="modal-close" id="modalClose">
+                    <img src="img/icons8-закрыть-67.png" alt="close">
+                </div>
+            </div>
+            <div class="qr__picture">
+                <img src="img/qr_telephone.png" alt="qr_big_size">
+            </div>        
+        </div>
+    </div>
+    <!-- Секция "header" -->
     <header>
         <section class="heading">
             <div class="wrapper">
@@ -34,11 +49,11 @@
                                 </div>
                                 <div class="heading__content-block_contact">
                                     <div class="block_contact-phone">
-                                        <a href=""></a>
+                                        <a href="#"></a>
                                         <p>+7 (915) 992-82-86</p>
                                     </div>
                                     <div class="block_contact-mail">
-                                        <a href=""></a>
+                                        <a href="#"></a>
                                         <p>teamextrem@mail.ru </p>
                                     </div>
                                 </div>
@@ -58,8 +73,8 @@
                     </div>
 
                     <div class="heading__content-block_contact">
-                        <div class="block_contact-phone">
-                            <a href=""></a>
+                        <div class="block_contact-phone" id="blockContactPhone">
+                            <a href="#"></a>
                             <p>+7 (915) 992-82-86</p>
                         </div>
                         <div class="block_contact-mail">
@@ -71,7 +86,7 @@
             </div>  
         </section>
     </header>
-    
+    <!-- Секция "works" -->
     <section class="works">        
         <div class="wrapper">
             <h2>Мои работы</h2>
@@ -248,5 +263,6 @@
             </div>
         </div>
     </section>
+    <script src="qr_window.js"></script>
 </body>
 </html>

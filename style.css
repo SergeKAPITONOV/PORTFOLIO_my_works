@@ -11,7 +11,6 @@
     --font-size-h2: 48px;
     --font-size-h3: 26px;
     --font-size-h5: 20px;
-
 }
 
 *{
@@ -102,6 +101,10 @@ a{
     align-items: center;
     gap: 1rem;
     
+}
+
+.block_contact-phone{
+    cursor: pointer;
 }
 
 .block_contact-phone a{
