@@ -91,24 +91,24 @@ body{
 .block_contact-phone a{
     height: 2rem;
     width: 2rem;
-    background-image: url(IMAGES/icons8-phone.png);
+    background-image: url(../IMAGES/icons8-phone.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .block_contact-phone a:hover{
-    background-image: url(IMAGES/icons8-phone_grn.png);
+    background-image: url(../IMAGES/icons8-phone_grn.png);
     /* background-repeat: no-repeat;
     background-size: cover; */
 }
 .block_contact-mail a{
     height: 2rem;
     width: 2rem;
-    background-image: url(IMAGES/icons8-mail.png);
+    background-image: url(../IMAGES/icons8-mail.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .block_contact-mail a:hover{
-    background-image: url(IMAGES/icons8-mail_grn.png);
+    background-image: url(../IMAGES/icons8-mail_grn.png);
     /* background-repeat: no-repeat;
     background-size: cover; */
 }
@@ -120,12 +120,12 @@ body{
     
 }
 .carousel-control-prev-icon{
-    background-image: url(IMAGES/icons8_back.png);
+    background-image: url(../IMAGES/icons8_back.png);
     width: 3rem;
     height: 3rem;
 }
 .carousel-control-next-icon{
-    background-image: url(IMAGES/icons8_next.png);
+    background-image: url(../IMAGES/icons8_next.png);
     width: 3rem;
     height: 3rem;
 }
@@ -149,7 +149,7 @@ body{
 /* Секция MAIN-CONTENT */
 .main-content {    
     padding: 10rem 0;
-    background-image: url(IMAGES/sinie_pod_vodoy_1920x1080.jpg);
+    background-image: url(../IMAGES/sinie_pod_vodoy_1920x1080.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -175,12 +175,54 @@ body{
 .container-item h2{
     font-weight: var(--font-weight-bold);
 }
+
+       /* TABS */
+.content_block-tabs_home{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transform: translateX(-9.1rem);
+    transition: transform 0.4s ease-out;
+    position: fixed;
+    left: 0;
+    top: 18rem;
+    z-index: 10;
+    background-color: var(--color-main);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    padding: 1.5rem 1.2rem;
+    color: var(--color-main-text);
+}
+.content_block-tabs_home:hover{
+    transform: translateX(0);
+}
 .content_block-tabs_courses{
     display: flex;
     align-items: center;
     gap: .7rem;
     cursor: pointer;
     transform: translateX(-13.3rem);
+    transition: transform 0.4s ease-out;
+    position: fixed;
+    left: 0;
+    top: 25rem;
+    z-index: 10;
+    background-color: var(--color-main);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    padding: 1.5rem 1.2rem;
+    color: var(--color-main-text);
+}
+.content_block-tabs_courses:hover{
+    transform: translateX(0);
+}
+.content_block-tabs_staff{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transform: translateX(-11.3rem);
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
@@ -191,8 +233,67 @@ body{
     border-top-right-radius: 1rem;  
     padding: 1.5rem 1.2rem;
     color: var(--color-main-text);
-
 }
-.content_block-tabs_courses:hover{
+.content_block-tabs_staff:hover{
+    transform: translateX(0);
+}
+.content_block-tabs_advantages{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transform: translateX(-11.8rem);
+    transition: transform 0.4s ease-out;
+    position: fixed;
+    left: 0;
+    top: 39rem;
+    z-index: 10;
+    background-color: var(--color-main);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    padding: 1.5rem 1.2rem;
+    color: var(--color-main-text);
+}
+.content_block-tabs_advantages:hover{
+    transform: translateX(0);
+}
+.content_block-tabs_faq{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transform: translateX(-13.2rem);
+    transition: transform 0.4s ease-out;
+    position: fixed;
+    left: 0;
+    top: 46rem;
+    z-index: 10;
+    background-color: var(--color-main);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    padding: 1.5rem 1.2rem;
+    color: var(--color-main-text);
+}
+.content_block-tabs_faq:hover{
+    transform: translateX(0);
+}
+.content_block-tabs_contacts{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    cursor: pointer;
+    transform: translateX(-8.5rem);
+    transition: transform 0.4s ease-out;
+    position: fixed;
+    left: 0;
+    top: 56rem;
+    z-index: 10;
+    background-color: var(--color-main);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    padding: 1.5rem 1.2rem;
+    color: var(--color-main-text);
+}
+.content_block-tabs_contacts:hover{
     transform: translateX(0);
 }
