@@ -297,3 +297,55 @@ body{
 .content_block-tabs_contacts:hover{
     transform: translateX(0);
 }
+
+/* Секция FOTTER */
+.fotter__content{
+    font-size: var(--font-size-light);
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    gap: 3rem; 
+    border-bottom: solid .06rem var(--color-main);
+    box-shadow: 0px .13rem .3rem -.5rem rgba(255, 255, 255, 0.3);
+}
+.fotter__content h3{
+    font-size: var(--font-size-h5);
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.fotter__content-pages{
+    display: block;
+    text-align: end;    
+}
+.fotter__content-pages a:hover{
+    color: var(--color-main-text);
+}
+.fotter__content-logos_item{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.fotter__content-logos_item img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.footer__end{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: end;
+}
+.footer__end p{
+    font-size: var(--font-size-main);
+}
+.set__first{
+    text-transform: capitalize;
+    font-style: italic;
+}
+.set__second{
+    font-weight: 600;
+}
