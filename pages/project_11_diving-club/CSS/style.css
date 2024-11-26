@@ -191,7 +191,7 @@ body{
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_home:hover{
@@ -206,12 +206,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 25rem;
+    top: 23rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_courses:hover{
@@ -226,12 +226,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 32rem;
+    top: 28rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_staff:hover{
@@ -246,12 +246,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 39rem;
+    top: 33rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_advantages:hover{
@@ -266,12 +266,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 46rem;
+    top: 38rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_faq:hover{
@@ -286,12 +286,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 56rem;
+    top: 49rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_contacts:hover{
