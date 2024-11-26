@@ -191,7 +191,7 @@ body{
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_home:hover{
@@ -206,12 +206,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 25rem;
+    top: 23rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_courses:hover{
@@ -226,12 +226,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 32rem;
+    top: 28rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_staff:hover{
@@ -246,12 +246,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 39rem;
+    top: 33rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_advantages:hover{
@@ -266,12 +266,12 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 46rem;
+    top: 38rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_faq:hover{
@@ -286,14 +286,66 @@ body{
     transition: transform 0.4s ease-out;
     position: fixed;
     left: 0;
-    top: 56rem;
+    top: 49rem;
     z-index: 10;
     background-color: var(--color-main);
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;  
-    padding: 1.5rem 1.2rem;
+    padding: 1.2rem .9rem;
     color: var(--color-main-text);
 }
 .content_block-tabs_contacts:hover{
     transform: translateX(0);
+}
+
+/* Секция FOTTER */
+.fotter__content{
+    font-size: var(--font-size-light);
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    gap: 3rem; 
+    border-bottom: solid .06rem var(--color-main);
+    box-shadow: 0px .13rem .3rem -.5rem rgba(255, 255, 255, 0.3);
+}
+.fotter__content h3{
+    font-size: var(--font-size-h5);
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.fotter__content-pages{
+    display: block;
+    text-align: end;    
+}
+.fotter__content-pages a:hover{
+    color: var(--color-main-text);
+}
+.fotter__content-logos_item{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.fotter__content-logos_item img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.footer__end{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: end;
+}
+.footer__end p{
+    font-size: var(--font-size-main);
+}
+.set__first{
+    text-transform: capitalize;
+    font-style: italic;
+}
+.set__second{
+    font-weight: 600;
 }
